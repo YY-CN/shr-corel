@@ -1,0 +1,38 @@
+{
+  "contract_sha256": "d6d20cf8f6532300699031408f428f8221a245fa7378309594b066d86ce8e9ff",
+  "specification_sha256": "57eb543f93b3d238f52cd1ac84c08eaab58f5b6e49ae3c8f843724455fc02951",
+  "settings": {
+    "version": "TRV2_K1_DESIGN_REL01_V1_1",
+    "cls_dim": 768,
+    "core_dim": 36,
+    "ln_eps": 1e-05,
+    "norm_tolerance": 1e-05,
+    "center_min_norm": 1e-12,
+    "variance_floor": 1e-12,
+    "query_batch": 32,
+    "people_per_step": 8,
+    "queries_per_reference": 4,
+    "query_lr": 0.0003,
+    "relation_lr": 0.001,
+    "weight_decay": 0.001,
+    "adam_betas": [
+      0.9,
+      0.999
+    ],
+    "adam_eps": 1e-08,
+    "query_max_epochs": 100,
+    "relation_max_epochs": 80,
+    "query_patience": 15,
+    "relation_patience": 12,
+    "min_delta": 1e-06,
+    "grad_clip": 1.0,
+    "seeds": [
+      20260722,
+      20260723,
+      20260724
+    ],
+    "other_seed": 20260722,
+    "bootstrap_seed": 20260722,
+    "bootstrap_replicates": 5000
+  }
+}
